@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscribe for monthly Newsletter</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/subscribe.css">
+</head>
+<body>
+    <header>
+        Gas Planets : Subscribe
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="menu">Home</a></li>
+            <li><a href="multimedia.html" class="menu">multimedia</a></li>
+            <li><a href="subscribe.html" class="menu">Subscirbe</a></li>
+            <li><a href="#" class="menu">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <header>Subscribe for monthly Newsletter</header>
+            <section>
+                <div class="form-container">
+                    <div class="form-header">Please Fill Your Infomation</div>
+                    <form action="action_page.php">
+                        <label for="fname">First name:</label> <input type="text" id="fname" name="fname" class="form-control"><br>
+                        <label for="lname">Last name:</label> <input type="text" id="lname" name="lname" class="form-control"><br>
+                        <label for="dob">Date of birth:</label> <input type="date" id="dob" name="dob" class="form-control"><br>
+                        <input type="radio" name="female" value="female" required></input><label for="male" class="gender">Male</label><br>
+                        <input type="radio" name="female" value="female" required><label for="female" class="gender">Female</label><br></input>
+                        <label for="Color">Your Favorite Color: </label><input type="color" id="color" name="color" class="selectinput"><br></input>
+                        <label for="planet">Your Favorite Planet: </label>
+                        <select id="planet" name="planet" class="selectplan">
+                            <option value="none" selected> </option>
+                            <option value="Jupiter">Jupiter</option>
+                            <option value="Saturn">Saturn</option>
+                            <option value="Uranus">Uranus</option>
+                            <option value="Neptune">Neptune</option>
+                          </select><br>
+                        <input type="submit" value="Clear"></input>
+                        <input type="submit" value="Submit" class="submit"></input>
+                      </form>
+                </div>
+                
+            </section>
+        </article>
+</body>
+</html>
